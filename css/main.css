@@ -1,0 +1,262 @@
+@font-face {
+    font-family: 'novecento_sans_widenormal';
+    src: url('fonts/novecentosanswide-normal-webfont.eot');
+    src: url('fonts/novecentosanswide-normal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/novecentosanswide-normal-webfont.woff2') format('woff2'),
+         url('fonts/novecentosanswide-normal-webfont.woff') format('woff'),
+         url('fonts/novecentosanswide-normal-webfont.ttf') format('truetype'),
+         url('fonts/novecentosanswide-normal-webfont.svg#novecento_sans_widenormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.head {
+  padding: 0px !important;
+  position: relative;
+  height: 700px;
+}
+
+.head_text {
+  z-index: 1;
+  padding-top: 80px;
+  padding-left: 20px;
+}
+
+#hed {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 4.0em;
+  color: white;
+  line-height: 70px;
+  margin-bottom: 20px;
+}
+
+.read a {
+  color: red !important;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.read:hover {
+  opacity: 0.6;
+}
+
+#dek{
+  color: white;
+  font-size: 1.1em;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+#byline {
+  color: white;
+  font-size: 1.1em;
+  text-align: left;
+}
+
+
+#social {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+#facebook{
+  background-image: url('../images/Share-Sprite.png');
+  background-repeat: no-repeat;
+  background-position: 1px 4px;
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-right: 11px;
+  cursor: pointer;
+}
+
+#twitter{
+  background-image: url('../images/Share-Sprite.png');
+  background-repeat: no-repeat;
+  background-position: 0 -42px;
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-right: 11px;
+  cursor: pointer;
+}
+
+#email{
+  background-image: url('../images/Share-Sprite.png');
+  background-repeat: no-repeat;
+  background-position: 0 -88px;
+  width: 40px;
+  height: 40px;
+  float: left;
+  cursor: pointer;
+}
+
+.map {
+  position: absolute;
+  top:0;
+  left:0;
+  padding: 0px !important
+}
+
+.category {
+    font-family: 'Open Sans', sans-serif;
+/*    font-size: 18px;*/
+    font-weight: bold;
+}
+
+.btn {
+  border-left: 1% solid white;
+  border-right: 1% solid white;
+  background-color: #999 !important;
+  padding: 5px !important;
+  margin-bottom: 10px !important;
+  width: 19%;
+}
+
+#btn_container {
+  padding: 20px 0;
+}
+
+.btn:hover {
+  opacity: 0.6;
+}
+
+.panel-body{
+  box-shadow: 4px 4px 5px #cccccc;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: #ddd 1px solid;
+}
+
+.name {
+  padding-bottom: 20px !important;
+  margin-bottom: 0px !important;
+  float: left !important;
+}
+
+.nf_name, .feat_name{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.nf_crim_disp, .feat_crim_disp{
+  color: red;
+  font-weight: bold;
+}
+
+.portrait {
+  padding-left: 0px !important;
+  margin-bottom: 10px;
+}
+
+.img-responsive{
+  min-width: 110px;
+  object-fit: cover;
+}
+
+.caption {
+  font-size: 14px;
+  color: #999999;
+  line-height: 16px;
+}
+
+.more_link{
+  color: red;
+  font-weight: bold;
+}
+
+.blurb_more{
+  display: none;
+}
+
+.read_more{
+  cursor: pointer;
+  color: red;
+}
+
+.back {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.back a {
+  color: red;
+  font-weight: bold;
+}
+
+.back:hover, .more_link:hover {
+  text-decoration: underline !important;
+  color: red !important;
+}
+
+.back:focus, .more_link:focus {
+  color: red !important;
+}
+
+.footnote {
+    padding-bottom: 11px;
+    font-size: 14px;
+    color: #999;
+    font-family: Arial;
+    font-weight: 400;
+}
+
+.stuck {
+  position:fixed;
+  top: 0;
+  box-shadow: 0 10px 12px -9px rgba(0,0,0,0.14);
+  background-color: white !important;
+  z-index: 10;
+  max-width: 100%;
+  left:0;
+}
+
+
+
+@media all and (max-width: 1025px) { /* screen size until 1200px */
+    #hed {
+        font-size: 3.0em; /* 1.5x default size */
+        line-height: 50px;
+    }
+    #dek {
+      font-size: 1.0em;
+    }
+}
+@media all and (max-width: 641px) { /* screen size until 500px */
+    .head {
+      height: inherit;
+    }
+
+    .head_text {
+      padding-top: 0px;
+    }
+
+    #hed, #dek, #byline {
+        color: black;
+    }
+
+    .btn {
+      width: 98% !important;
+    }
+
+    .portrait {
+      padding: 0px !important;
+      margin-bottom: 10px;
+    }
+
+    .info {
+      padding: 0px !important;
+    }
+
+    .profile {
+      padding: 0px !important;
+    }
+
+    .map {
+      position: static;
+    }
+}
