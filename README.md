@@ -1,2 +1,1 @@
-# evict
-Evict QA
+Barred from Home App Page
